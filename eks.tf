@@ -47,8 +47,8 @@ module "eks" {
 #
 #  aws_auth_roles = [
 #    {
-#      rolearn  = "arn:aws:iam::665284826828:role/admin-role"
-#      username = "Isaias.Souza@dentsuaegis.com"
+#      rolearn  = "$ARN"
+#      username = "$USER"
 #      groups   = ["system:masters"]
 #    },
 #  ]
